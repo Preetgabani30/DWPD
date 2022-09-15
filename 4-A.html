@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<form action="pr4.php" method="POST">	
+	<table>
+		<tr>
+			<th>Name</th>
+			<td><input type="text" name="name"></td>
+		</tr>
+		<tr>
+			<th>Password</th>
+			<td><input type="Password" name="pass"></td>
+		</tr>
+		<tr>
+			<th>Gender</th>
+			<td><input type="radio" value="male" name="gender" checked>Male
+				<input type="radio" value="female" name="gender">Female</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td><input type="number" name="age">
+		</tr>
+		<tr>
+			<th>Hobby</th>
+			<td><input type="checkbox" name="hobby[]" value="cricket">cricket<br>
+			<input type="checkbox" name="hobby[]" value="travel">travel<br>
+			<input type="checkbox" name="hobby[]" value="photography">photography</td>
+		</tr>
+		<tr>
+			<th>City</th>
+			<td><select name="city">
+				<option>Ahmedabad</option>
+				<option selected="">surat</option>
+				<option>Rajkot</option>
+				<option>Bangalore</option>
+			</select></td>
+		</tr>
+		<tr>
+			<th>Address</th>
+			<td><textarea placeholder="address" name="address"></textarea></td>
+		</tr>
+	</table>
+	<input type="submit" name="submit"><input type="reset" name="reset">
+</form>
+</body>
+<html>

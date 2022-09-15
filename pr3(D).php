@@ -1,0 +1,35 @@
+<?php  
+	$str='Preet';  
+	$str0=' PREET ';  
+	echo "character function"."<br>";  
+	echo chr(80)."<br>";  
+	echo "returnt the ascii value"."<br>";  
+	echo ord("D")."<br>";  	
+	echo "covert upper string to lower string"."<br>";  
+	echo strtolower("PREET GABANI")."<br>";  
+	echo "convert lower string to upper string"."<br>";  
+	echo strtoupper("wellcome to my home ")."<br>";  
+	echo "find the lenght of string"."<br>";  
+	echo strlen("DHRUMIL")."<br>";  
+	echo "remove whitespace from left side"."<br>";  
+	echo ltrim($str,"D")."<br>";  
+	echo "remove whitespace from right side"."<br>";  
+	echo rtrim($str,"l")."<br>";  
+	echo "trim function"."<br>";  
+	echo trim($str0,"l")."<br>";  
+	echo "sub string function"."<br>";  
+	echo substr("PREET GABANI",4,11)."<br>";  
+	echo "string compare"."<br>";  
+	echo strcmp("hello world","hello world")."<br>";  
+	echo "string case compare"."<br>";  
+	echo strcasecmp("hello world","HELLO world")."<br>";  
+	echo "find string position"."<br>";  
+	echo strpos("PREET GABANI","T")."<br>";  
+	echo "strstr function"."<br>";  
+	echo strstr("welcome to php","p")."<br>";  
+	echo "string replace"."<br>";  
+	echo stristr("welcome to php","T")."<br>";  
+	echo "string replace"."<br>";    
+	echo str_replace("surat","gujarat","welcome to surat stay safe in surat",$i)."<br>";  
+	echo $i;   
+?> 

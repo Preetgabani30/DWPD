@@ -1,3 +1,3 @@
 <?php
-	echo "Welcome to Preet's PC";
+	echo "Welcome to Preet's Pc"
 ?>
